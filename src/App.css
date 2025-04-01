@@ -1,0 +1,18 @@
+.pronto {
+	border: 3px solid rgba(0, 0, 255, 0.643);
+	padding: 0.5em;
+	
+	h2 {
+		font-size: 18px;
+		margin: 0;
+	}
+	p {
+		margin: 0;
+	}
+
+	.pronto-counter {
+		border: 2px solid gray;
+		padding: 0.3em;
+		border-radius: 0.4em;
+	}
+}

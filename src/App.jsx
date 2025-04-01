@@ -1,5 +1,6 @@
 import './App.css'
 import ClickerManager from './components/ClickerManager.jsx'
+import Pronto from './components/Pronto.jsx'
 
 function App() {
 
@@ -9,6 +10,8 @@ function App() {
 			<main>
 
 				<ClickerManager />
+
+				<Pronto />
 			</main>
 		</div>
 	)
