@@ -1,4 +1,4 @@
-import { useCountStore } from "../data/countStore.js"
+import { useCountStore } from "../../data/countStore.js"
 
 const ProntoCounter = ({ entrance }) => {
 	const enter = useCountStore(state => state.enter)

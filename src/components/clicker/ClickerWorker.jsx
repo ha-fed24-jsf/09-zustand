@@ -1,4 +1,4 @@
-import { useCountStore } from '../data/countStore.js'
+import { useCountStore } from '../../data/countStore.js'
 
 const ClickerWorker = () => {
 	const increase = useCountStore(state => state.increase)

@@ -1,6 +1,6 @@
 import './App.css'
-import ClickerManager from './components/ClickerManager.jsx'
-import Pronto from './components/Pronto.jsx'
+import ClickerManager from './components/clicker/ClickerManager.jsx'
+import Pronto from './components/pronto/Pronto.jsx'
 
 function App() {
 

@@ -1,5 +1,5 @@
 import ClickerWorker from "./ClickerWorker"
-import { useCountStore } from "../data/countStore.js"
+import { useCountStore } from "../../data/countStore.js"
 
 const ClickerManager = () => {
 	const count = useCountStore(state => state.count)
