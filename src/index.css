@@ -8,3 +8,26 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+* { box-sizing: border-box; }
+
+body {
+	margin: 0;
+}
+
+button {
+	margin: 0 0.4em;
+	cursor: pointer;
+	transition: all 0.4s;
+	box-shadow: 0 3px 6px rgb(53, 88, 89);
+	background-color: rgb(197, 243, 243);
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 0.2em 0.5em;
+
+	&:hover {
+		transform: translateY(3px);
+		box-shadow: 0 -3px 5px rgb(53, 88, 89);
+		background-color: rgb(175, 215, 215);
+	}
+}

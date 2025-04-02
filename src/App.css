@@ -1,7 +1,29 @@
-.pronto {
-	border: 3px solid rgba(0, 0, 255, 0.643);
+.app {
+
+	header {
+		padding: 1em;
+		background-color: aqua;
+	}
+	main {
+		padding: 1em 1em;
+	}
+
+	.framed {
+		border: 3px solid rgba(0, 0, 255, 0.643);
+	}
+}
+
+.clicker {
 	padding: 0.5em;
-	
+	margin-bottom: 0.3em;
+
+	p { margin: 0 0 0.3em 0; }
+
+}
+
+.pronto {
+	padding: 0.5em;
+
 	h2 {
 		font-size: 18px;
 		margin: 0;
@@ -14,5 +36,9 @@
 		border: 2px solid gray;
 		padding: 0.3em;
 		border-radius: 0.4em;
+
+		span {
+			margin-right: 1em;
+		}
 	}
 }

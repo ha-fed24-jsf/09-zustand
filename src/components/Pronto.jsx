@@ -5,7 +5,7 @@ const Pronto = () => {
 	const count = useCountStore(state => state.prontoCount)
 
 	return (
-		<div className="pronto">
+		<div className="pronto framed">
 			<h2> Passersystemet Pronto </h2>
 			<p> Det finns {count} personer i lokalen. </p>
 			<ProntoCounter entrance={'Ingång A'} />

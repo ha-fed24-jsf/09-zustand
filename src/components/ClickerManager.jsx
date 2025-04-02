@@ -5,7 +5,7 @@ const ClickerManager = () => {
 	const count = useCountStore(state => state.count)
 
 	return (
-		<div>
+		<div className="clicker framed">
 			<p> Du har klickat: {count} gånger. </p>
 
 			<ClickerWorker />

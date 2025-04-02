@@ -6,7 +6,7 @@ const ProntoCounter = ({ entrance }) => {
 
 	return (
 		<section className="pronto-counter">
-			{entrance}
+			<span> {entrance} </span>
 			<button onClick={() => enter()}> Gå in </button>
 			<button onClick={leave}> Gå ut </button>
 		</section>
