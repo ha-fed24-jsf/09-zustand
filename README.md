@@ -23,14 +23,19 @@ Så här är projektet strukturerat.
 
 ```
 src
-|-- /components
-|   | En mapp för varje feature
+|-- /components - en mapp för varje feature
+|   |- /clicker
+|   |- /pronto
+|   |- /radio
+|   |- /users
 |
-|-- /data
-|   | Allt som har att göra med datan: stores och testdata
+|-- /data - stores och data
+|   |- countStore.js
+|   |- userStore.js
+|   |- users.js - data
 |
-| App.css
-| App.jsx
-| index.css
-| main.jsx
+|- App.css
+|- App.jsx
+|- index.css
+|- main.jsx
 ```
