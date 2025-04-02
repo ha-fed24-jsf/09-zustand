@@ -1,12 +1,36 @@
-# React + Vite
+# Zustand övningar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Köra koden
+```bash
+# Ladda ner projektet
+git clone https://github.com/ha-fed24-jsf/11-zustand.git
 
-Currently, two official plugins are available:
+# Installera alla paket som länkas i package.json
+npm install
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Öppna koden
+code .
 
-## Expanding the ESLint configuration
+# Starta
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Mappstruktur
+Så här är projektet strukturerat.
+
+"Feature folders" innebär att man organiserar komponenter i mappar
+
+```
+src
+|-- /components
+|   | En mapp för varje feature
+|
+|-- /data
+|   | Allt som har att göra med datan: stores och testdata
+|
+| App.css
+| App.jsx
+| index.css
+| main.jsx
+```
