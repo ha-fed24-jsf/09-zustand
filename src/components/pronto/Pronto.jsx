@@ -1,5 +1,6 @@
 import ProntoCounter from "./ProntoCounter.jsx"
 import { useCountStore } from "../../data/countStore.js"
+import './Pronto.css'
 
 const Pronto = () => {
 	const count = useCountStore(state => state.prontoCount)
