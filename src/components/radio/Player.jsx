@@ -1,17 +1,17 @@
-import { useState } from 'react'
 import Channel from './Channel'
 import './Player.css'
+import { useCountStore } from '../../data/countStore'
 
 const Player = () => {
-	const [nowPlaying, setNowPlaying] = useState('')
+	const nowPlaying = useCountStore(state => state.channel)
 	return (
 		<div className="player framed">
 			<h2> Välj radiokanal </h2>
 			<div className="row">
-				<Channel text="P1" setChannel={setNowPlaying} />
-				<Channel text="P2" setChannel={setNowPlaying} />
-				<Channel text="P3" setChannel={setNowPlaying} />
-				<Channel text="P4" setChannel={setNowPlaying} />
+				<Channel text="P1" />
+				<Channel text="P2" />
+				<Channel text="P3" />
+				<Channel text="P4" />
 			</div>
 			<p>
 				{nowPlaying ?

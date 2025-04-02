@@ -1,6 +1,7 @@
+import { useCountStore } from "../../data/countStore"
 
-const Channel = ({ text, setChannel }) => {
-
+const Channel = ({ text }) => {
+	const setChannel = useCountStore(state => state.setChannel)
 	return (
 		<label onClick={() => setChannel(text)}>
 			<input type="radio" name="channel" />
